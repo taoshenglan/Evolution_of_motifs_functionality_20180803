@@ -1,9 +1,8 @@
 # Evolution_of_motifs_functionality_20180803
 Evolution_of_motifs_functionality_20180803
 =======Evolution of Network Functionality========
+
 examp.py: To divide the original dataset into sub-datasets based on the time slot we choose. In this function, you can input the filename and the length of the time slot.
-
-
 
 Choose_from_file.py: To call the Temperalmotifsmain.c function of snap. In this function, the user needs to provide the path of the temperalmotifsmain.c function, the input filenames(the paths of files that need to be analyzed), delta(time window) value and output filenames(to store the results of analysis). If the input file is empty, the Choose_from_file function will output the result with all value equals to 0, otherwise, the output value should be given by the temperalmotifsmain.c function.
 
